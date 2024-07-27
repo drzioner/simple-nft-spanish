@@ -1,6 +1,6 @@
 ## NFT Basico usando la red de Metis
 
-> [!INFO]
+> [!NOTE]
 > Aqui esta la traducción del tutorial de [🚩 Challenge #0: 🎟 Simple NFT Example](docs/challenge-0-simple-nft.md) en 
 > español.
 >
@@ -12,7 +12,7 @@ Este esta mas simplificado y solo se enfoca en la creación de un contrato NFT b
 Con lo cual solo debes preocuparte por ejecutar los comandos y seguir los pasos, para que puedas crear tu propio 
 contrato NFT en la red de Metis, sin problemas.
 
-> [!INFO]
+> [!NOTE]
 > Puedes seguir el tutorial original de
 > [Scaffold ETH](https://github.com/scaffold-eth/se-2-challenges/tree/challenge-0-simple-nft) o la version en español
 > [🚩 Challenge #0: 🎟 Simple NFT Example](docs/challenge-0-simple-nft.md) para crear un contrato NFT en la red de prueba 
@@ -37,7 +37,7 @@ Luego debes dirigirte a la carpeta del proyecto.
 ```
 
 **Paso 2**
-> [!INFO]
+> [!NOTE]
 > Antes de comenzar, asegúrate de tener instalado [Node.js](https://nodejs.org/es/) y [Yarn](https://yarnpkg.com/). 
 > es muy importante que tu version de Node.js sea igual o mayor de 18.17.0 o inferior a la version 21, esto no se 
 > comenta en el tutorial original, pero es importante tenerlo en cuenta.
@@ -128,7 +128,7 @@ Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
 WARNING: These accounts, and their private keys, are publicly known.
 Any funds sent to them on Mainnet or any other live network WILL BE LOST.
 ```
-> [!INFO]
+> [!NOTE]
 > Si quieres usar alguna de estas cuentas para hacer pruebas, puedes hacerlo, pero recuerda configurar
 > la red de Hardhat en tu **Metamask**. Aqui te dejo como hacerlo si no lo recuerdas:
 > [Metamask Hardhat](docs/metamask-hardhat.md)
@@ -180,7 +180,7 @@ Ahora debemos conectar nuestra App con **Metamask** para poder interactuar con l
 Por ahora en nuestra aplicación debemos que nos indica que estamos en la red equivocada, eso es porque aun no
 hemos seleccionado la red de **Metis Sepolia**.
 
-> [!INFO]
+> [!NOTE]
 > Si tiene seleccionada la red de **Metis Sepolia** en **Metamask** puedes seguir con el siguiente paso.
 >
 
@@ -248,7 +248,7 @@ deploying "YourCollectible" (tx: 0xbce7a632fa60a48a7ba903d925eefc5d99eba716b9f25
 **Paso 7**
 Ahora puedes interactuar con la aplicación y crear tu propio contrato NFT en la red de **Metis Sepolia**.
 
-> [!WARRING]
+> [!WARNING]
 > La red de Metis Sepolia no viene preconfigurada en Viem, por lo que tuve que crear una red de prueba personalizada.
 > Aqui te dejo la configuracion de la red de Metis Sepolia para que puedas agregarla a tu proyecto:
 > `packages/nextjs/metis-sepolia-chain-config.ts`, ademas te dejo la documentación oficial de
@@ -283,7 +283,7 @@ Ya puedes interactuar con tu NFT y ver los detalles del mismo.
 
 Por ultimo vamos a desplegar nuestra aplicación en **Vercel** para que puedas compartirla con tus amigos.
 
-> [!INFO]
+> [!NOTE]
 > Si no tienes una cuenta en **Vercel** puedes crear una en [Vercel](https://vercel.com/)
 > 
 

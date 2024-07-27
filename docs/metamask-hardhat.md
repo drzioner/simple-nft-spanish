@@ -52,6 +52,6 @@ Ahora debes llenar el formulario con los siguientes datos:
 
 Por último, da click en el boton `Guardar` y listo, ahora Metamask esta configurado para conectarse a tu red local de Hardhat.
 
-> [!INFO]
+> [!NOTE]
 > Recuerda que debes tener tu red local de Hardhat ejecutandose para que Metamask pueda conectarse a ella.
 > 

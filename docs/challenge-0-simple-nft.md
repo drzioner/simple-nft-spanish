@@ -1,6 +1,6 @@
 ## ¡Desafío #0: Ejemplo Simple de NFT 🎟️!
 
-> [!INFO]
+> [!NOTE]
 > Nota:
 > Esta es una traducciòn del tutorial **Challenge #0: 🎟 Simple NFT Example** original en inglés, si quieres ver el
 > tutorial original puedes hacerlo [aqui](https://speedrunethereum.com/challenge/simple-nft-example).
