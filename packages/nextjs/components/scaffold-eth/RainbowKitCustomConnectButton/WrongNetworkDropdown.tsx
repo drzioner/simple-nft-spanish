@@ -7,8 +7,8 @@ export const WrongNetworkDropdown = () => {
 
   return (
     <div className="dropdown dropdown-end mr-2">
-      <label tabIndex={0} className="btn btn-error btn-sm dropdown-toggle gap-1">
-        <span>Wrong network</span>
+      <label tabIndex={0} className="btn btn-error text-accent-content dark:text-neutral btn-sm dropdown-toggle gap-1">
+        <span>Red equivocada</span>
         <ChevronDownIcon className="h-6 w-4 ml-2 sm:ml-0" />
       </label>
       <ul
@@ -18,12 +18,12 @@ export const WrongNetworkDropdown = () => {
         <NetworkOptions />
         <li>
           <button
-            className="menu-item text-error btn-sm !rounded-xl flex gap-3 py-3"
+            className="menu-item bg-accent text-error btn-sm !rounded-xl flex gap-3 py-3"
             type="button"
             onClick={() => disconnect()}
           >
             <ArrowLeftOnRectangleIcon className="h-6 w-4 ml-2 sm:ml-0" />
-            <span>Disconnect</span>
+            <span>Desconectarse</span>
           </button>
         </li>
       </ul>
