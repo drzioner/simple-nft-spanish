@@ -37,6 +37,7 @@ Luego debes dirigirte a la carpeta del proyecto.
 ```
 
 **Paso 2**
+
 > [!NOTE]
 > Antes de comenzar, asegúrate de tener instalado [Node.js](https://nodejs.org/es/) y [Yarn](https://yarnpkg.com/). 
 > es muy importante que tu version de Node.js sea igual o mayor de 18.17.0 o inferior a la version 21, esto no se 
@@ -50,6 +51,7 @@ Instala las dependencias del proyecto, he agragado un archivo `.nvmrc` para que 
 ```
 
 **Paso 3**
+
 Luego debes ejecutar la cadena de prueba de **Hardhat** en local, esto nos ayuda a validar que todo esta 
    funcionan bien.
 ```bash
@@ -152,6 +154,7 @@ deploying "YourCollectible" (tx: 0x364d576dca178e40400c27745a166360778ada56ce81f
 > 
 
 **Paso 4**
+
 Ahora debes ejecutar el servidor de **Next.js** para poder ver la aplicación en tu navegador.
 ```bash
     yarn start
@@ -200,6 +203,7 @@ Ahora deberias ver algo como esto:
 ![Metamask Red](docs/assets/app-localhost-metis.png)
 
 **Paso 5**
+
 Ahora debemos generar una nueva cuenta en **Metamask** para poder interactuar con la red de **Metis Sepolia**. Es 
    una buena practica hacer esto ahora vamos a ejecutar el siguiente comando:
 ```bash
@@ -226,6 +230,7 @@ Ahora debes configurar tu **Metamask** para que puedas interactuar con la red de
 >
 
 **Paso 6**
+
 Ahora vamos a ejecutar el siguiente comando para desplegar el contrato en la red de **Metis Sepolia**.
 
 > [!WARNING]
@@ -246,6 +251,7 @@ deploying "YourCollectible" (tx: 0xbce7a632fa60a48a7ba903d925eefc5d99eba716b9f25
 ```
 
 **Paso 7**
+
 Ahora puedes interactuar con la aplicación y crear tu propio contrato NFT en la red de **Metis Sepolia**.
 
 > [!WARNING]
