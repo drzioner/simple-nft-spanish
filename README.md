@@ -136,7 +136,7 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
 
 Ahora debes desplegar el contrato en la red de **Hardhat**. Esto debes hacerlo en una nueva terminal.
 ```bash
-    yarn deploy
+    yarn deploy --network localhost
 ```
 Deberias ver algo como esto:
 ```bash
